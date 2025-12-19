@@ -1,0 +1,25 @@
+# Core Machine Learning
+torch>=2.2.0
+numpy
+pandas
+scipy
+
+# Hugging Face Ecosystem
+transformers>=4.38.0
+datasets
+accelerate>=0.27.0
+bitsandbytes>=0.41.0  # For 4-bit quantization
+
+# High-Performance Inference
+vllm>=0.3.3           # For vLLM runner
+
+# Evaluation & Metrics
+bert_score
+evaluate
+scikit-learn
+matplotlib
+seaborn
+
+# Tracking & Utilities
+wandb
+tqdm
